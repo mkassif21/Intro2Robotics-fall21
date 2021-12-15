@@ -1,6 +1,6 @@
 #include <AFMotor.h> // Uses addafruit custom library to control the motor shield
-#include <Servo.h> //was for opening mechanism. did not work.
-
+#include <Servo.h> //was for opening mechanism. did not use.
+//potentiometer feedback not used due to various issues making them work with the OWi.
 // Declaring motors for the motor shield
 AF_DCMotor claw(1);
 AF_DCMotor elbow(2);
